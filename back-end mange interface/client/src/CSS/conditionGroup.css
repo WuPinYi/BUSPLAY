@@ -1,0 +1,15 @@
+#C1_station, #C2_station, #C2_type {
+	display: inline !important;
+}
+
+select {
+	border-left: none;
+	border-right: none;
+	border-top: none;
+	text-align-last: center;  /* 好像目前只支援chrome 其他地方會變成只有 text-align */
+}
+
+.card-body {
+	padding: 1.5rem 1.25rem ;
+}
+

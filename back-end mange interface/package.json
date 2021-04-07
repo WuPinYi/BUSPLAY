@@ -1,0 +1,30 @@
+{
+  "name": "Project",
+  "version": "1.0.0",
+  "scripts": {
+    "client": "cd client && yarn start",
+    "server": "nodemon server.js",
+    "dev": "concurrently --kill-others-on-fail \"yarn server\" \"yarn client\""
+  },
+  "description": "Back",
+  "repository": "https://github.com/mdyu1000/Project.git",
+  "author": "mdyu1000 <mdyu1000@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "geo-distance": "^0.2.0",
+    "gunzip-file": "^0.1.1",
+    "mongodb": "^3.1.1",
+    "morgan": "^1.9.0",
+    "node-fetch": "^2.2.0",
+    "react-router": "^4.3.1",
+    "request": "^2.88.0",
+    "serve-favicon": "^2.5.0"
+  },
+  "devDependencies": {
+    "concurrently": "^3.5.1",
+    "nodemon": "^1.18.4"
+  }
+}
